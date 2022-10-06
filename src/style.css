@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.1s all ease-in-out;
+}
+
+html,body{
+  height: 100vh;
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+}
+
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: 1;
+}
+
+.controls{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: black;
+  color: gray;
+  z-index: 100;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.controls ul{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;  
+}
+
+.controls li{
+  list-style-type: none;
+  padding: 20px 50px;
+}
+
+.controls li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.selectedPlanet{
+  color: white;
+}
+
+.info{
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.205);
+  z-index: 50;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info-data{
+  width: 40vw;
+  padding: 50px;
+}
+
+.info-data h1{
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.info-data p{
+  font-size: 20px;
+}
