@@ -1,18 +1,16 @@
-# Three.js Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+# ABOUT
+A responsive, 3D website featuring all the planets in a solar system.
+It provides info about all the planets. All the planets are real rotating meshes with their corresponding texture.
+Uses animations to tween between different planets. 
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+# Technology Used
+- HTML
+- CSS
+- Javascript
+- React js
+- Three.js
+- Green Sock Animations
+- Solar System API
 
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
-# SolarSystem3D
+# Status
+Published, [Link](https://shivampande18.github.io/SolarSystem3D/)
