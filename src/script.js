@@ -1,4 +1,4 @@
-import './style.css'
+import '../src/style.css'
 import * as THREE from 'three'
 import gsap from 'gsap/gsap-core'
 
